@@ -3,7 +3,7 @@
     Greetings on different planets
 */
 
-const planets = {
+const solar_system = {
     "mercury":{
         _greeting: "Welcome to first planet of the solar system. The average in dar tiem is around 500 degC",
         get greeting(){
@@ -60,6 +60,7 @@ const planets = {
             return this._greeting
         }
     },
+    //it chooses a random planet forom the solar system
     choosePlanet(){
         const listOfPlanets = ["mercury","venus","earth","mars","jupiter","saturn","uranus","neptune","pluto"]
         const index = Math.floor(Math.random()*9)
