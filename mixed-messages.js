@@ -59,5 +59,16 @@ const planets = {
         get greeting(){
             return this._greeting
         }
+    },
+    choosePlanet(){
+        const listOfPlanets = ["mercury","venus","earth","mars","jupiter","saturn","uranus","neptune","pluto"]
+        const index = Math.floor(Math.random()*9)
+       // console.log(this[listOfPlanets[index]])
+        return this[listOfPlanets[index]]
     }
+
 }
+
+const solarSystem = planets;
+const planet = solarSystem.choosePlanet();
+console.log(planet.greeting)
