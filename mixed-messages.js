@@ -74,6 +74,6 @@ const solar_system = {
 
 }
 
-const solarSystem = planets;
+const solarSystem = solar_system;
 const planet = solarSystem.choosePlanet();
 console.log(planet.greeting)
