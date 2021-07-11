@@ -2,11 +2,11 @@
 /*  
     Greetings on different planets
 */
-console.log("  |\_/|        ****************************    (\_/")
-console.log(` / @ @ \       *  "Purrrfectly pleasant"  *   (='.'=)`)
-console.log('( > º < )      *       Poppy Prinz        *   (")_(")')
-console.log(' `>>x<<´       *   (pprinz@example.com)   *')
-console.log(' /  O  \       ****************************"')
+console.log("  |\_/|         ****************************    (\\_/")
+console.log(` / @ @ \\       *  "Purrrfectly pleasant"  *   (='.'=)`)
+console.log('( > º < )       *       Poppy Prinz        *  (")_(")')
+console.log(' `>>x<<´        *   (pprinz@example.com)   *')
+console.log(' /  O  \\       ****************************"')
 const solar_system = {
     "mercury":{
         _greeting: "Welcome to first planet of the solar system. The average in dar tiem is around 500 degC",
